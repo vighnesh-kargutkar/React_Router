@@ -12,6 +12,7 @@ export default function MainNaigation() {
               className={({ isActive }) =>
                 isActive ? classes.active : undefined
               }
+              end
             >
               Home
             </NavLink>
